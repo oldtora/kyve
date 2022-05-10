@@ -16,7 +16,7 @@ unzip kyve-near-linux.zip
 
 ----------------------------------------
 
-# даём максимальные пермиссии файлам (одной командой)
+# даём пермиссии (одной командой)
 
 chmod u+x * && \ mv kyve-near-linux /usr/bin/kyve-near
 
@@ -47,11 +47,9 @@ EOF
 
 ----------------------------------------
 
-# приводите в чувства все сервисы (одной командой)
+# приводите в чувства сервис (одной командой)
 
-sudo systemctl daemon-reload && \
-sudo systemctl enable near && \
-sudo systemctl restart near
+sudo systemctl daemon-reload && \ sudo systemctl enable near && \ sudo systemctl restart near
 
 ----------------------------------------
 
