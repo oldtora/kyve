@@ -6,7 +6,9 @@ sudo apt-get install wget unzip -y
 
 #создаем папку kyve > заходим в неё > скачиваем зип файл в папку (одной командой)
 
-mkdir $HOME/kyve && \ cd $HOME/kyve && \ wget https://github.com/kyve-org/near/releases/download/v0.0.0/kyve-near-linux.zip
+mkdir $HOME/kyve && \ 
+cd $HOME/kyve && \ 
+wget https://github.com/kyve-org/near/releases/download/v0.0.0/kyve-near-linux.zip
 
 ----------------------------------------
 
@@ -18,7 +20,8 @@ unzip kyve-near-linux.zip
 
 # даём пермиссии (одной командой)
 
-chmod u+x * && \ mv kyve-near-linux /usr/bin/kyve-near
+chmod u+x * && \ 
+mv kyve-near-linux /usr/bin/kyve-near
 
 ----------------------------------------
 
@@ -49,7 +52,9 @@ EOF
 
 # приводите в чувства сервис (одной командой)
 
-sudo systemctl daemon-reload && \ sudo systemctl enable near && \ sudo systemctl restart near
+sudo systemctl daemon-reload && \ 
+sudo systemctl enable near && \ 
+sudo systemctl restart near
 
 ----------------------------------------
 
