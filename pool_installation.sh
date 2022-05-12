@@ -43,7 +43,7 @@ mv kyve-solana-linux /usr/bin/kyve-solana && \
 mv kyve-celo-linux /usr/bin/kyve-celo && \
 mv kyve-zilliqa-linux /usr/bin/kyve-zilliqa && \
 mv kyve-evm-linux /usr/bin/kyve-evm && \
-mv bitcoin-linux /usr/bin/kyve-bitcoin && \
+mv bitcoin-linux /usr/bin/kyve-bitcoin
 
 ----------------------------------------
 
