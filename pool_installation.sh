@@ -331,7 +331,7 @@ EOF
 
 # Запускаем сервис
 sudo systemctl daemon-reload && \ 
-sudo systemctl enable aevmos && \ 
+sudo systemctl enable evmos && \ 
 sudo systemctl restart evmos
 
 # Проверяем логи
